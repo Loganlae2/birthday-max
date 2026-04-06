@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Max! 🎮</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CRT scanlines overlay -->
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <!-- ══════════════════════════════════════
+       TITLE SCREEN
+  ══════════════════════════════════════ -->
+  <div id="screen-title" class="screen active">
+    <div id="titleStars" class="star-field" aria-hidden="true"></div>
+    <div class="title-center">
+      <div class="arcade-frame">
+        <p class="byline">★ EDELHEIT BROTHERS PRODUCTIONS ★</p>
+        <div class="score-row">
+          <span>PLAYER 1: LOGAN</span>
+          <span>HI-SCORE: <span class="hi-val">22 YRS</span></span>
+        </div>
+        <h1 class="main-title">
+          HAPPY<br>BIRTHDAY<br><span class="name-glow">MAX!</span>
+        </h1>
+        <p class="tagline">22 YEARS OF BEING THE<br>SECOND-BEST TWIN</p>
+        <p class="insert-coin blink">— INSERT COIN TO CONTINUE —</p>
+        <button class="btn-start" onclick="startGame()">▶ &nbsp;START GAME</button>
+        <p class="credit">© 2025 LOGAN EDELHEIT · ALL MEMORIES RESERVED</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       LEVEL SCREEN
+  ══════════════════════════════════════ -->
+  <div id="screen-level" class="screen">
+    <header class="lv-header">
+      <button class="btn-ghost sm" onclick="goToTitle()">◀ MENU</button>
+      <div class="lv-title-group">
+        <div class="lv-num" id="lvNum">LEVEL 1 / 4</div>
+        <div class="lv-name" id="lvName">THE EARLY YEARS</div>
+        <div class="lv-years" id="lvYears">2003 — 2013</div>
+      </div>
+      <div class="lv-counter">
+        <span id="memCount">0</span>/<span id="memTotal">0</span>
+        <br><span class="counter-label">MEMORIES</span>
+      </div>
+    </header>
+
+    <div class="room" id="room">
+      <div class="room-bg" id="roomBg"></div>
+      <div class="room-grid-overlay"></div>
+      <div class="room-floats" id="roomFloats"></div>
+      <div class="room-era-badge" id="roomBadge"></div>
+    </div>
+
+    <div class="unlock-hint blink">↓ CLICK A MEMORY CABINET TO UNLOCK ↓</div>
+
+    <div class="cabinets-wrap">
+      <div class="cabinets-row" id="cabinetsRow"></div>
+    </div>
+
+    <footer class="lv-footer">
+      <button class="btn-ghost sm" id="btnPrev" onclick="changeLevel(-1)">◀ PREV ERA</button>
+      <div class="era-dots" id="eraDots"></div>
+      <button class="btn-ghost sm era-next" id="btnNext" onclick="changeLevel(1)">NEXT ERA ▶</button>
+    </footer>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       MEMORY MODAL
+  ══════════════════════════════════════ -->
+  <div id="modal" class="modal-overlay hidden" onclick="overlayClose(event)">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <button class="modal-close btn-ghost sm" onclick="closeModal()">✕ CLOSE</button>
+
+      <div class="modal-head">
+        <span class="modal-emoji" id="mIcon"></span>
+        <div class="modal-head-text">
+          <div class="modal-title" id="mTitle"></div>
+          <div class="modal-sub" id="mSub"></div>
+        </div>
+      </div>
+
+      <div class="modal-photo-wrap">
+        <img id="mPhoto" src="" alt="Memory photo" class="hidden">
+        <div class="photo-placeholder" id="mPlaceholder">
+          <div class="ph-icon">📸</div>
+          <div class="ph-label">PHOTO LOADING SOON...</div>
+        </div>
+      </div>
+
+      <div class="modal-story">
+        <p id="mStory"></p>
+      </div>
+
+      <div class="modal-nav">
+        <button class="btn-ghost sm" onclick="navMemory(-1)">◀ PREV</button>
+        <span class="modal-counter" id="mCounter"></span>
+        <button class="btn-ghost sm" onclick="navMemory(1)">NEXT ▶</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       FINALE SCREEN
+  ══════════════════════════════════════ -->
+  <div id="screen-finale" class="screen finale-screen">
+    <div class="finale-center">
+      <div class="finale-frame">
+        <div class="finale-trophy float-anim">🏆</div>
+        <h2 class="finale-title">GAME COMPLETE!</h2>
+        <p class="finale-achievement">✓ ACHIEVEMENT UNLOCKED: BEST BROTHER EVER</p>
+        <div class="star-divider">★ ★ ★ ★ ★ ★ ★ ★ ★ ★</div>
+        <div class="finale-msg" id="finaleMsg"></div>
+        <div class="finale-sig" id="finaleSig"></div>
+        <div class="star-divider">★ ★ ★ ★ ★ ★ ★ ★ ★ ★</div>
+        <div class="finale-btns">
+          <button class="btn-start sm" onclick="goToTitle()">▶ PLAY AGAIN</button>
+          <button class="btn-ghost sm" onclick="showLevel(3)">◀ LEVEL 4</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
