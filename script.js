@@ -27,56 +27,48 @@ const GAME_DATA = {
         "https://drive.google.com/thumbnail?id=1yhsCdQ1qI8Ox60fThpnfVNdoM81Ghrig&sz=w800",
         "https://drive.google.com/thumbnail?id=14IusbyuckUNylcvyrdgyknI69lwUueKe&sz=w800",
         "https://drive.google.com/thumbnail?id=1qLNBR0TSMCY9SU3JLgCcqy3PnQf5_-iY&sz=w800",
-        "https://drive.google.com/thumbnail?id=1lq2zRB8CXNbA9oElmvY3xCnHWZB1UeLD&sz=w800"
+        "https://drive.google.com/thumbnail?id=1lq2zRB8CXNbA9oElmvY3xCnHWZB1UeLD&sz=w800",
+        "https://drive.google.com/thumbnail?id=1tKwVSPqRKttFzlpagWfpF5b3n52H1NH4&sz=w800",
+        "https://drive.google.com/thumbnail?id=1FBkrnEH0fx5Oa7kaBzgERfL_DlUPHW0C&sz=w800",
+        "https://drive.google.com/thumbnail?id=1Th1KQ2qYFsRlEV_ZVdLqGDU2zhS9PB65&sz=w800",
+        "https://drive.google.com/thumbnail?id=1Tkrf9WBi8Pdpv01VrJn5bGc8wVtJWlOC&sz=w800",
+        "https://drive.google.com/thumbnail?id=1lgF4p5GuADlIPjfAM0ySAwoX2h7iEO1E&sz=w800"
       ],
       memories: [
-        {
-          id: "home-base",
-          icon: "🏠",
-          title: "HOME BASE",
-          subtitle: "Franklin, Michigan — The House That Built Us",
-          story: "Born April 23rd, 2004. Franklin, Michigan. The same house our whole lives.\n\nMost people grow up moving around, losing the places that made them who they are. Not us. That house in Franklin was everything — the backyard, the neighborhood, the kitchen table where everything happened. It's where the Edelheit brothers story actually starts.\n\nNo matter where either of us ends up, that's home base forever.",
-          photos: []
-        },
         {
           id: "double-trouble",
           icon: "👥",
           title: "DOUBLE TROUBLE",
           subtitle: "Born Together. Ride Together.",
-          story: "We started at Adat Shalom together. Did everything together from literally day one.\n\nYou never really know what it means to have a twin until you imagine life without one. There was never a time I can remember being alone. Same school, same house, same everything. Built-in best friend from the jump.\n\nMost people have to find their person. We just woke up next to ours.",
-          photos: []
+          story: "Born April 23rd, 2004. Franklin, Michigan. Same house our whole lives.\n\nMost people grow up moving around, losing the places that made them who they are. Not us. That house in Franklin was everything — the backyard, the neighborhood, the kitchen table where everything happened.\n\nAnd from literally day one, we had each other. You never really know what it means to have a twin until you imagine life without one. There was never a time I can remember being alone. Same school, same house, same everything. Built-in best friend from the jump.\n\nMost people have to find their person. We just woke up next to ours. That house is home base forever — no matter where either of us ends up.",
+          photos: ["https://drive.google.com/thumbnail?id=1a4IyJteh9YqGFmf4SnI2Syofk0NosCa4&sz=w1200"]
         },
         {
           id: "west-maple",
           icon: "📚",
           title: "WEST MAPLE DAYS",
           subtitle: "Elementary School — Where It All Started",
-          story: "Mom would give us money to go to the bookstore and we would absolutely lose it over the silly putty, the laser tag sets, the invisible ink pens. Complete suckers for that front display every single time.\n\nThe library? Bloons Tower Defense like it was our job. Remember the book challenge — logging books and getting those little foot tokens for your keychain? We took that so seriously.\n\nLunch at the long tables together, Mom packed our lunches, and the GRITZ snacks were genuinely elite. Elementary school just hit different.",
-          photos: []
+          story: "Mom would give us money to go to the bookstore and we would absolutely lose it over the silly putty, the laser tag sets, the invisible ink pens. Complete suckers for that front display every single time.\n\nThe library? Bloons Tower Defense like it was our job. Remember the book challenge — logging books. Also running every recess to get the little foot tokens for our keychain? We took that so seriously.\n\nLunch at the long tables together, Mom packed our lunches, and the GRITZ snacks were genuinely elite. Elementary school just hit different.",
+          photos: [
+            "https://drive.google.com/thumbnail?id=1ubP5QWyS669pQ4kW9y3aULoFEGaVBS3r&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1WP8UuTl0WD77_c2ZHJEocO9NsioX0FYr&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1oW1-fNzESizp3YS3TtNFBMOUYHpgQ1kf&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1ryCXU39vzv16Mn3_r3aZ8RemenGddsN3&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1coZV6-CqHtfP0ySzO3eDlCSNBxfpBDKa&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1cYx5oc8eLIlvt1oGAP-XqMbc_Xp9UGMk&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1F9qYcvP6DXYaATjeFlA8B1vYqhL6LIPd&sz=w1200"
+          ]
         },
         {
           id: "guitar-hero-legos",
           icon: "🎸",
-          title: "GUITAR HERO & LEGOS",
+          title: "GUITAR HERO",
           subtitle: "Before Phones. Before Everything.",
-          story: "Before we had anything else, we had Guitar Hero and Legos.\n\nGuitar Hero was a religion in our house. We played for hours. I'm not going to say who was better because I don't want to embarrass you on your birthday — but we both know.\n\nAnd Legos — entire weekends just building. No phones, no agenda. Just the two of us with a pile of pieces and nowhere to be. Those might actually be some of my favorite memories of us.",
-          photos: []
-        },
-        {
-          id: "flag-football",
-          icon: "🏈",
-          title: "FLAG FOOTBALL",
-          subtitle: "Future NFL Stars (We Thought)",
-          story: "Flag football was serious business when we were kids. We went out every season and genuinely competed.\n\nBetween this and Franklin baseball, we really thought we were building a legacy in Michigan youth sports. Flag football was the one that was actually fun though — we were out there trying, competing, and actually having a good time.\n\n(Franklin baseball is a different story. We'll get to that.)",
-          photos: []
-        },
-        {
-          id: "franklin-baseball",
-          icon: "⚾",
-          title: "FRANKLIN BASEBALL",
-          subtitle: "We Both Hated It. There, I Said It.",
-          story: "Franklin baseball. We played it for years. We both hated it.\n\nI'm saying this on the record, documented, on your birthday website: Franklin baseball was not for us. Some things you look back on with warmth and nostalgia. This is not one of those things.\n\nRespect to the game. It just wasn't ours. We finally admitted it.",
-          photos: []
+          story: "Before we had anything else, we had Guitar Hero.\n\nGuitar Hero was a religion in our house. We played for hours. I'm not going to say who was better because I don't want to embarrass you on your birthday — but we both know.\n\nAnd honestly it was great bonding time with Dad — he was always down to play a round. Sometimes even Mom got involved and grabbed the microphone to sing. Those might actually be some of my favorite memories of us.",
+          photos: [
+            "https://drive.google.com/thumbnail?id=1orYktvaNALMISn0seulKvu2ZdguERSRE&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1EafoZN3HzKL5WUWdfRydmhBFAnAubEDG&sz=w1200"
+          ]
         },
         {
           id: "halloween",
@@ -91,7 +83,7 @@ const GAME_DATA = {
           icon: "🏞️",
           title: "FRANKLIN PARK BOOLS",
           subtitle: "Our Spot. Always.",
-          story: "Franklin Park was our spot. Whether it was summer evenings, weekends, or just killing time — that park was where half of childhood happened.\n\nRunning around, no agenda, being kids with nowhere to be. Those unstructured hours at that park are some of the most purely happy memories I have.\n\nSimple times. We didn't know how good we had it.",
+          story: "Franklin Park was our spot. Whether it was summer evenings, weekends, or just killing time — that park was where half of childhood happened.\n\nRunning around, no agenda, being kids with nowhere to be. Those unstructured hours at that park are some of the most purely happy memories I have.\n\nWe kept coming back as we got older too. Remember during COVID meeting up with Jack and Jonah at the park? Simple times — though we weren't quite as innocent then haha.",
           photos: ["https://drive.google.com/thumbnail?id=1_a52uoDxCIJQq9KLf8icrbJuz2L4Xfc4&sz=w1200"]
         },
         {
@@ -107,7 +99,7 @@ const GAME_DATA = {
           icon: "✡️",
           title: "ADAT SHALOM",
           subtitle: "Hebrew School, Community & Everything That Came With It",
-          story: "Adat Shalom. Hebrew school, services, bar and bat mitzvahs for years. It was a huge part of growing up for both of us.\n\nYou can complain about going as a kid all you want, but look back now — it gave us community, identity, and some of the most formative friendships we both have.\n\nAlso it gave us the bar mitzvah circuit, which was genuinely one of the best periods of middle school.",
+          story: "Adat Shalom gave us community, identity, and some of the most formative friendships we both have — Jonah, Zach, Ellie. People who are genuinely still in our lives today.\n\nAlso it gave us the bar mitzvah circuit, which was genuinely one of the best periods of middle school.\n\nShir Shalom was our synagogue where we did Sunday school for years. We absolutely hated it. But we showed up every time.",
           photos: ["https://drive.google.com/thumbnail?id=1pLU5q9rj6p0tt-t0PRwvNMMcRpf9Z-Ne&sz=w1200"]
         },
         {
@@ -115,7 +107,7 @@ const GAME_DATA = {
           icon: "🍽️",
           title: "KITCHEN MEMORIES",
           subtitle: "The Center of the House",
-          story: "The kitchen was the center of that house. Mom cooking, Dad walking in to taste things, the whole family ending up in the kitchen somehow no matter what.\n\nSome of the best conversations we ever had were at that kitchen table. Some of the best meals, some of the funniest moments.\n\nThe kitchen was where the Edelheit family actually happened.",
+          story: "The kitchen was the center of that house. Mom cooking, Dad walking in to taste things, the whole family ending up in the kitchen somehow no matter what.\n\nSome of the best conversations we ever had were at that kitchen table. Some of the funniest moments — and not actually the best meals, we love Mom but cooking wasn't always her strong suit.\n\nThe kitchen was where the Edelheit family actually happened.",
           photos: ["https://drive.google.com/thumbnail?id=1O_MLu7WUWPy6U38VDMHnzpUaT3Dcwuc-&sz=w1200"]
         }
       ]
@@ -134,27 +126,15 @@ const GAME_DATA = {
       secondaryColor: "#ffff00",
       bgClass: "bg-era2",
       roomIcons: ["🏫", "🏊", "🏃", "✡️", "⛺", "😂"],
-      photoLog: [
-        "https://drive.google.com/thumbnail?id=1sc8iNSBLu_V2ICBsBPNRbuV4M-UdmOeT&sz=w800",
-        "https://drive.google.com/thumbnail?id=1xK8I_4rvUWm3jUsVaEMtSkiJBNU-FLR8&sz=w800",
-        "https://drive.google.com/thumbnail?id=1UGpkQLHka7c83kHCUdT2Gk5W-jq9pBm-&sz=w800"
-      ],
+      photoLog: [],
       memories: [
-        {
-          id: "berkshire",
-          icon: "🏫",
-          title: "BERKSHIRE",
-          subtitle: "Middle School Survival Arc",
-          story: "Berkshire was... an experience. Let's say it was character-building.\n\nMiddle school is already rough and Berkshire made sure you earned every bit of it. But we got through it the same way we got through everything — together.\n\nAnd for the record: you started dating Sophia Chung in middle school. Your first girlfriend. I had nobody. Completely normal, totally fine, not at all a pattern that continued.",
-          photos: []
-        },
         {
           id: "swimming",
           icon: "🏊",
           title: "ALWAYS STARVING",
           subtitle: "Swimming & the Hunger That Followed",
-          story: "We swam at Berkshire and every single time without fail, we were absolutely starving after practice.\n\nI don't know what swimming does to you biologically but it was like a switch — practice ends, immediate emergency mission to find any food within reach. We'd eat anything. Every time, without exception.\n\nThis is a small memory but it's so specific and so us that it had to be here.",
-          photos: []
+          story: "Berkshire was... an experience. Character-building, let's say. Middle school is already rough and Berkshire made sure you earned every bit of it.\n\nWe swam there and every single time without fail, we were absolutely starving after practice. I don't know what swimming does to you biologically but it was like a switch — practice ends, immediate emergency mission to find any food within reach. We'd eat anything. Every time, without exception.",
+          photos: ["https://drive.google.com/thumbnail?id=1vd3Wx_2XqOGHITYC3Zo7gIH4WDEci07N&sz=w1200"]
         },
         {
           id: "cross-country",
@@ -162,15 +142,20 @@ const GAME_DATA = {
           title: "CROSS COUNTRY",
           subtitle: "I Was Faster. This Is Documented.",
           story: "We ran cross country for a while in middle school.\n\nI was faster than you. This is an objective, documented fact. You weren't bad — don't get me wrong — but on the course, I had the edge.\n\nI'll give you windsurfing. I'll give you a lot of things. But cross country? That one's mine. Happy birthday.",
-          photos: []
+          photos: ["https://drive.google.com/thumbnail?id=1HGzoCfewhEw-lqMVpmCnqeBDVljcWt84&sz=w1200"]
         },
         {
           id: "bar-mitzvah",
           icon: "✡️",
           title: "BAR MITZVAH",
-          subtitle: "April 23rd, 2017 — We Became Men",
-          story: "April 23rd, 2017. We became Bar Mitzvahs on our shared birthday.\n\nThe party, the people, the whole thing was one of the best nights of our lives at that point. All of our people together, our family there, a full actual celebration of something that mattered.\n\nAlso the fact that we shared it made it distinctly us. Most people get their own day. We split it and somehow made it better.",
-          photos: ["https://drive.google.com/thumbnail?id=1FkDzmFS4vMHxNtBBMd6YZZ8zYNL3E8bJ&sz=w1200"]
+          subtitle: "We Became Men",
+          story: "We became Bar Mitzvahs on our shared birthday.\n\nThe theme was Everything Edelheit — perfect. All of our people together, our family there, a full actual celebration of something that mattered.\n\nDad's speech was a minimum 30 minutes. We stood up there wondering if it was ever going to end. And Nick Lurz got kicked out — which tells you everything about the energy in that room.\n\nMost people get their own Bar Mitzvah. We shared ours and made it distinctly us.",
+          photos: [
+            "https://drive.google.com/thumbnail?id=1FkDzmFS4vMHxNtBBMd6YZZ8zYNL3E8bJ&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1sc8iNSBLu_V2ICBsBPNRbuV4M-UdmOeT&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1xK8I_4rvUWm3jUsVaEMtSkiJBNU-FLR8&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1UGpkQLHka7c83kHCUdT2Gk5W-jq9pBm-&sz=w1200"
+          ]
         },
         {
           id: "camp-ms",
@@ -206,7 +191,9 @@ const GAME_DATA = {
         "https://drive.google.com/thumbnail?id=1yEJ4k7ZA-4kMs9cz0ZIfu6_z-EIZ7s51&sz=w800",
         "https://drive.google.com/thumbnail?id=1mujaHhc6Vd7mChZE7Omqc4ujm_mcqzph&sz=w800",
         "https://drive.google.com/thumbnail?id=1oEGKdhBqrEhUNXRCc04nkVdVERrBm8vg&sz=w800",
-        "https://drive.google.com/thumbnail?id=1fo7MlN6IKn9v3FnLr3qrNXqAaAFpyEW-&sz=w800"
+        "https://drive.google.com/thumbnail?id=1fo7MlN6IKn9v3FnLr3qrNXqAaAFpyEW-&sz=w800",
+        "https://drive.google.com/thumbnail?id=1DdNGi_AgA7G6CeNRX7J00z7Y3AYudYOD&sz=w800",
+        "https://drive.google.com/thumbnail?id=1HoX2bTAhJgRTWuV0j1WOOnoU8eM4wTer&sz=w800"
       ],
       memories: [
         {
@@ -222,15 +209,19 @@ const GAME_DATA = {
           icon: "💼",
           title: "THE GRINDER ERA",
           subtitle: "Cider Mill, BHAC & the Hustle",
-          story: "We had a lot of jobs in high school and we were absolute grinders.\n\nThree years at the Cider Mill. BHAC — Beverly Hills Athletic Club — $11 an hour, felt like real money at the time. You also worked at 2941 Mediterranean for a while on top of everything else. We also babysat briefly. We don't like kids. That ended fast.\n\nHere's what gets me: we used to celebrate $11 an hour. Now we don't think twice about $100. You look at where you started and where you're going — it's honestly insane how far you've come.",
-          photos: []
+          story: "We had a lot of jobs in high school and we were absolute grinders.\n\nThree years at the Franklin Cider Mill — and we worked our way up. Year one we were running the cashier, taking orders and making change like good little employees. Then we got promoted to the Hot Dog Grill, standing over that thing in the fall heat. Eventually we made it to the Production Team — working alongside the Mexican crew who honestly ran the whole operation. Real experience.\n\nBHAC — Beverly Hills Athletic Club — $11 an hour, felt like real money at the time. You also worked at 2941 Mediterranean for a while on top of everything else. We also babysat briefly. We don't like kids. That ended fast.\n\nHere's what gets me: we used to celebrate $11 an hour. Now we don't think twice about $100. You look at where you started and where you're going — it's honestly insane how far you've come.",
+          photos: [
+            "https://drive.google.com/thumbnail?id=1PHE2-LkYrcurFwIIQOlACW1rPXGEvSpI&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1blktv_FErRQfL04Uj0-VjqrmmiY-FkUK&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1IhUbnYqYT2-dFPAGEWjZfewtF6bWgWT1&sz=w1200"
+          ]
         },
         {
           id: "prom",
           icon: "🤵",
           title: "PROM",
           subtitle: "The Night That Delivered",
-          story: "Prom. The tuxes, the photos, the whole production.\n\nHigh school prom is one of those nights that somehow lives up to the hype — you're with your people, everyone looks different than they usually do, and you actually feel like the moment is real while it's happening.\n\nWe both went. We both had fun. One of us had a better date than the other but I'll let the photo speak for itself.",
+          story: "Prom. The suits, the photos, the whole production.\n\nHigh school prom is one of those nights that somehow lives up to the hype — you're with your people, everyone looks different than they usually do, and you actually feel like the moment is real while it's happening.",
           photos: ["https://drive.google.com/thumbnail?id=1i6ml5r8q58MUU1nRyphjqC4YVeE-lw7S&sz=w1200"]
         },
         {
@@ -238,8 +229,12 @@ const GAME_DATA = {
           icon: "🎾",
           title: "JV BENCHWARMER",
           subtitle: "Tennis, Coach Annie & Flappy Golf",
-          story: "You were JV benchwarmer for tennis. I say this with complete and total love.\n\nWe did take private lessons with Coach Annie — not entirely for the tennis improvement, if I'm being fully transparent. We were in high school. We showed up to every single lesson. Dedication.\n\nAlso: 9th and 10th grade, before we could go upstairs for lunch, we would play Flappy Golf and whatever else on our phones. That specific memory is so locked in my brain. Just sitting there playing dumb games killing time before lunch. Peak high school.",
-          photos: []
+          story: "You were JV benchwarmer for tennis. I say this with complete and total love.\n\nWe did take private lessons with Coach Annie — not entirely for the tennis improvement, if I'm being fully transparent. We thought she was hot. We showed up to every single lesson. Dedication.\n\nAlso: 9th and 10th grade we had to eat lunch inside school, so we'd sit there playing Flappy Golf on our phones killing time. Once we could drive, lunch with friends or going home was the move. But those early lunch periods — just sitting there playing dumb games — are so locked in my brain. Peak high school.",
+          photos: [
+            "https://drive.google.com/thumbnail?id=1XnoIWWEzlaQAHjBSol75Uj_BgxnxCWKk&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1hwoLYY8ex4-3WjxjLT0QwEP4Jk7BZyvN&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1Yf4UBYe9NLfUOOVMX3DeLd8pCLOulpHC&sz=w1200"
+          ]
         },
         {
           id: "ski-trips",
@@ -249,7 +244,8 @@ const GAME_DATA = {
           story: "The ski trips were the best part of Michigan winters.\n\nCarving runs, being cold and not caring, the whole experience. There's something about a good ski day where everything else disappears and you're just out there.\n\nThese are the kinds of days you think about when you think about what growing up here actually felt like.",
           photos: [
             "https://drive.google.com/thumbnail?id=1XF2VZyVC4FVLmxSHoU29_WSDMExbypAp&sz=w1200",
-            "https://drive.google.com/thumbnail?id=1XW6SW8JeHFQJeyg234kQ7VJblDReqEQV&sz=w1200"
+            "https://drive.google.com/thumbnail?id=1XW6SW8JeHFQJeyg234kQ7VJblDReqEQV&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1f2fBzmrXmZ8NNJQ7nhWBEOK0qf_IgOBV&sz=w1200"
           ]
         },
         {
@@ -265,16 +261,28 @@ const GAME_DATA = {
           icon: "🎳",
           title: "BOWLING",
           subtitle: "Competitive. Always.",
-          story: "Bowling was one of those random hobbies that became a whole thing for a while.\n\nWe'd go out, absolutely delusional about how good we were, and then actually bowl a decent game and convince ourselves we had a real future in it.\n\nCompetitive with each other every time, obviously. That was non-negotiable.",
-          photos: [],
+          story: "Bowling was one of those random hobbies that became a whole thing for a while.\n\nFor the record: I was the team captain and the best bowler. You embraced the sport more than I did — which I respect — but the skill gap was real.\n\nWe would always get McDonald's after practice. Every single time without fail. That was half the reason to go.\n\nCompetitive with each other every time, obviously. That was non-negotiable.",
+          photos: [
+            "https://drive.google.com/thumbnail?id=1KJQWBopNb8NdvvPZIoex8T9DSEGSczPd&sz=w1200",
+            "https://drive.google.com/thumbnail?id=13DF5Evca2cpsSi2rtqWksE_LZY480k9l&sz=w1200"
+          ],
           video: "https://drive.google.com/file/d/15-OpsjgohQ5eqyweTGPQqrYOMPv7X51M/preview"
+        },
+        {
+          id: "lake-days",
+          icon: "🌊",
+          title: "LAKE DAYS",
+          subtitle: "Summer on the Water",
+          story: "Lake days were a staple. Wakesurfing, boats, summer in Michigan doing what you're supposed to do.\n\nThere's something about being out on the water that just resets everything. No schedule, no stress, just sun and water and the people you want to be around.\n\nSome of the best summer memories we have happened on the lake.",
+          photos: [],
+          video: "https://drive.google.com/file/d/1vkpDzPOJGUGm73C7rjssFskD-DD_K3NJ/preview"
         },
         {
           id: "random-aura",
           icon: "✨",
           title: "RANDOM AURA",
           subtitle: "The Vibe Was Immaculate",
-          story: "Some photos just capture the vibe. No context needed. Pure aura.\n\nThis is one of those photos. You can feel the energy. The drip was real. The moment was real.\n\nDocumented for history.",
+          story: "Some photos just capture the vibe. No context needed. Pure aura.\n\nDocumented for history.",
           photos: ["https://drive.google.com/thumbnail?id=1sS90xho0Z7alHCfihoTmtxHVSwdu2pbT&sz=w1200"]
         },
         {
@@ -282,7 +290,7 @@ const GAME_DATA = {
           icon: "👑",
           title: "PUISHES",
           subtitle: "You Know What It Is",
-          story: "Puishes. You know what it is. Don't need to explain it.\n\nSome things are just for us and for the people who were there. This is one of them.\n\nThe fact that it's on your birthday website is perfect.",
+          story: "Random memory in my camera roll - remember the video of him getting beat up by some random black kid",
           photos: ["https://drive.google.com/thumbnail?id=1AZwapMAQ1bumDbLn_Hb3FjqYgOmQkfqX&sz=w1200"]
         },
         {
@@ -290,7 +298,7 @@ const GAME_DATA = {
           icon: "🦁",
           title: "RANDOM MOG PHOTO",
           subtitle: "Not a Simp. A Mog.",
-          story: "Mog. The highest honor.\n\nNot a simp. Not a dog. A mog — the man of great quality who carries himself accordingly. You are the definition of this.\n\nDocumented proof, right here.",
+          story: "I mog you here.",
           photos: ["https://drive.google.com/thumbnail?id=1aH7ryMZqt3_1TkzV5d9XgPRDyk_Fr-Fj&sz=w1200"]
         },
         {
@@ -310,7 +318,10 @@ const GAME_DATA = {
           photos: [
             "https://drive.google.com/thumbnail?id=1wN7wr-b2mnW6qxzyX-O92cJceIiPYwK6&sz=w1200",
             "https://drive.google.com/thumbnail?id=1JkXAEr2J_l5pjDqCx8FIyBaZNycc5WvI&sz=w1200",
-            "https://drive.google.com/thumbnail?id=1bYr9u1Vj9ca6qrLKLFCo9DyaQwMxmglP&sz=w1200"
+            "https://drive.google.com/thumbnail?id=1bYr9u1Vj9ca6qrLKLFCo9DyaQwMxmglP&sz=w1200",
+            "https://drive.google.com/thumbnail?id=109K8HpFKQ75lnuh7Qum_8liD-pcNZE94&sz=w1200",
+            "https://drive.google.com/thumbnail?id=14jVIp2_zcC416_TU0G2zK3U2thYNuBFH&sz=w1200",
+            "https://drive.google.com/thumbnail?id=1w1Gf6H5_lI3lbLEOhHQi52m5U_iNVj0A&sz=w1200"
           ]
         },
         {
@@ -324,14 +335,6 @@ const GAME_DATA = {
             "https://drive.google.com/thumbnail?id=1ZB9Zm1U9gpmXGMpFk0-vIynicpbR-Nec&sz=w1200"
           ]
         },
-        {
-          id: "wolverines-lions",
-          icon: "🐺",
-          title: "GO BLUE & DET LIONS",
-          subtitle: "Michigan Wolverines & a Lifetime of Lions Pain",
-          story: "The Michigan fandom was always there, but high school is when it really locked in.\n\nWatching games together, following recruiting, going all in on the Wolverines. The college football Saturdays started feeling like real events.\n\nAnd the Lions — the suffering is generational at this point. But we watch together, we suffer together, and when they finally do something good, we're screaming together. Being a Lions and Wolverines fan in this family is just part of who we are. No choice. No regrets.",
-          photos: []
-        }
       ]
     },
 
@@ -415,8 +418,8 @@ const GAME_DATA = {
           id: "katie",
           icon: "💑",
           title: "KATIE GELFMAN",
-          subtitle: "The Third. Probably the Last. Definitely the Best.",
-          story: "Katie Gelfman. Your third girlfriend — and probably, let's be honest, your last.\n\nSophia → Rylie → Katie. That's a character arc. That's growth. Katie is genuinely great, and she's been great for you, and I say that as someone who has had zero girlfriends the entire time.\n\nNot bitter. Completely fine. Very happy for you. This is your birthday after all.",
+          subtitle: "The Best.",
+          story: "Katie Gelfman. She is genuinely great, and she's been great for you, and I say that as someone who has had zero girlfriends the entire time.\n\nNot bitter. Completely fine. Very happy for you. This is your birthday after all.",
           photos: ["https://drive.google.com/thumbnail?id=1bu7n40NooRtGCN16qZxboCOR3HoNT1Gh&sz=w1200"]
         },
         {
@@ -424,7 +427,7 @@ const GAME_DATA = {
           icon: "🏟️",
           title: "THE BIG HOUSE",
           subtitle: "100,000 Maize & Blue",
-          story: "Michigan Stadium as a student. 100,000 people in Maize and Blue.\n\nGame days in Ann Arbor are unlike anything else — the tailgates, the walk in, that sound when the team comes out. There's a reason it's one of the most iconic venues in sports.\n\nWe got to experience that as students. We were there for the run. We watched it together and we knew, even in the moment, that we were watching something we'd talk about forever.",
+          story: "Michigan Stadium as a student. 100,000 people in Maize and Blue.\n\nGame days in Ann Arbor are unlike anything else — the tailgates, the walk in, that sound when the team comes out. There's a reason it's one of the most iconic venues in sports.\n\nSophomore year we got to witness a national championship season — we were actual students there for the run. National Champions. We watched it together and we knew, even in the moment, that we were watching something we'd talk about forever.",
           photos: [
             "https://drive.google.com/thumbnail?id=1ZpkfTwExNOrkOxVBBBtphoMzb720sm7C&sz=w1200",
             "https://drive.google.com/thumbnail?id=1qtC1dQliu6ggoh19FhGK52lBeUTBRER8&sz=w1200",
@@ -436,7 +439,7 @@ const GAME_DATA = {
           icon: "🌊",
           title: "NAPLES",
           subtitle: "The Trip That Delivered",
-          story: "Naples. The trip that delivered.\n\nGood weather, good food, good people. The kind of trip where everything just works and you come back actually refreshed instead of needing a vacation from your vacation.\n\nThis one's going in the permanent rotation.",
+          story: "Naples. The trip that delivered.\n\nGood weather, good food, good people. The kind of trip where everything just works and you come back actually refreshed instead of needing a vacation from your vacation.\n\nI wish we went to ladies night.",
           photos: ["https://drive.google.com/thumbnail?id=1o4hQe7DzZMG4-nK6wEHzc1Ub6rNeqoHb&sz=w1200"]
         },
         {
@@ -444,7 +447,7 @@ const GAME_DATA = {
           icon: "⛳",
           title: "GOLF",
           subtitle: "The New Obsession",
-          story: "Golf entered the rotation in college and never left.\n\nWhat started as something to do turned into an actual thing we both got into. The courses, the competition, the absolutely disproportionate amount of satisfaction from hitting a good shot — golf is just built different.\n\nNot going to say who's better. You know who's better.",
+          story: "Alr you are better at golf — but not unless I started playing more. I will give you this.",
           photos: [
             "https://drive.google.com/thumbnail?id=1A1QVh3Z0S6vLIzV5dWj0SoAPiwYHWrAS&sz=w1200",
             "https://drive.google.com/thumbnail?id=1No-DK57yX4aM0YLcUXhN8nnrt4LX1njs&sz=w1200"
@@ -455,7 +458,7 @@ const GAME_DATA = {
           icon: "🎰",
           title: "VEGAS",
           subtitle: "What Happens in Vegas... Is on This Site Now",
-          story: "Vegas. At least one trip has to happen in college.\n\nWe went. We experienced it. The city lives up to the reputation in all the ways it's supposed to.\n\nWhat happens in Vegas stays in Vegas — except for these photos, which are now immortalized on your birthday website. Happy birthday.",
+          story: "Vegas.\n\nWe went. We experienced it. The city lives up to the reputation in all the ways it's supposed to.\n\nWhat happens in Vegas stays in Vegas — except for these photos, which are now immortalized on your birthday website. Happy birthday.",
           photos: [
             "https://drive.google.com/thumbnail?id=14vIa0lRaBjxPYyqlGW3tqdmRZW6jPFP-&sz=w1200",
             "https://drive.google.com/thumbnail?id=1CQScB9o_hHEmrkvaWB_AiD9H9hxoCCfp&sz=w1200"
@@ -466,7 +469,7 @@ const GAME_DATA = {
           icon: "🎓",
           title: "WE MADE IT",
           subtitle: "Cap, Gown & What Comes Next",
-          story: "And now we're here. Four years done. Graduating.\n\nYou're staying in Michigan. I'm going to New York. For the first time in 22 years, we're not going to be in the same city.\n\nThat's a strange thing to sit with. But we've always been more than proximity — it's something bigger than geography. Whatever comes next, wherever we both end up, it's still me and you.\n\nAlways has been. Click the next button.",
+          story: "And now we're here. Four years done. Graduating.\n\nYou're staying in Michigan. I'm going to New York. For the first time in 22 years, we're not going to be in the same city.\n\nThat's a strange thing to sit with. But we've always been more than proximity — it's something bigger than geography. Whatever comes next, wherever we both end up, it's still me and you.\n\nAlways has been.",
           photos: []
         }
       ]
@@ -498,6 +501,7 @@ let currentLevelIndex  = 0;
 let currentModalLevel  = 0;
 let currentModalMemIdx = 0;
 let currentPhotoIdx    = 0;
+let currentMediaTab    = 'photos';
 const unlocked = new Set();
 
 
@@ -635,6 +639,7 @@ function openModal(lvIdx, memIdx) {
   currentModalLevel  = lvIdx;
   currentModalMemIdx = memIdx;
   currentPhotoIdx    = 0;
+  currentMediaTab    = 'photos';
 
   const lv  = GAME_DATA.levels[lvIdx];
   const mem = lv.memories[memIdx];
@@ -661,6 +666,11 @@ function renderMemoryMedia(mem) {
   const videoWrap  = document.getElementById('mVideoWrap');
   const photoNav   = document.getElementById('mPhotoNav');
   const photoCtr   = document.getElementById('mPhotoCounter');
+  const tabs       = document.getElementById('mMediaTabs');
+  const tabPhotos  = document.getElementById('mTabPhotos');
+  const tabVideo   = document.getElementById('mTabVideo');
+
+  const hasBoth = mem.video && mem.photos && mem.photos.length > 0;
 
   // Reset all
   img.classList.add('hidden');
@@ -669,20 +679,36 @@ function renderMemoryMedia(mem) {
   videoWrap.style.display = 'none';
   videoWrap.innerHTML = '';
   photoNav.style.display = 'none';
+  tabs.style.display = 'none';
 
-  if (mem.video) {
+  if (hasBoth) {
+    tabs.style.display = 'flex';
+    tabPhotos.classList.toggle('active', currentMediaTab === 'photos');
+    tabVideo.classList.toggle('active', currentMediaTab === 'video');
+  }
+
+  if (mem.video && (!hasBoth || currentMediaTab === 'video')) {
     videoWrap.style.display = 'block';
-    videoWrap.innerHTML = `<iframe src="${mem.video}" class="modal-video-frame" allowfullscreen></iframe>`;
-  } else if (mem.photos && mem.photos.length > 0) {
+    videoWrap.innerHTML = `<iframe src="${mem.video}" class="modal-video-frame" allow="autoplay" allowfullscreen></iframe>`;
+  }
+
+  if (mem.photos && mem.photos.length > 0 && (!hasBoth || currentMediaTab === 'photos')) {
     img.src = mem.photos[currentPhotoIdx];
     img.classList.remove('hidden');
     if (mem.photos.length > 1) {
       photoNav.style.display = 'flex';
       photoCtr.textContent = `${currentPhotoIdx + 1} / ${mem.photos.length}`;
     }
-  } else {
+  } else if (!mem.video && (!mem.photos || mem.photos.length === 0)) {
     ph.style.display = 'flex';
   }
+}
+
+function switchMediaTab(tab) {
+  currentMediaTab = tab;
+  const mem = GAME_DATA.levels[currentModalLevel].memories[currentModalMemIdx];
+  document.getElementById('mVideoWrap').innerHTML = '';
+  renderMemoryMedia(mem);
 }
 
 function navPhoto(dir) {
