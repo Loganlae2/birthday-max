@@ -519,6 +519,78 @@ button { cursor: pointer; font-family: var(--f-pixel); }
 
 
 /* ══════════════════════════════════════════════════════════════
+   MULTI-PHOTO NAV & VIDEO
+   ══════════════════════════════════════════════════════════════ */
+.modal-photo-nav {
+  display: flex; align-items: center; justify-content: center;
+  gap: 12px; padding: 6px 18px;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+  flex-shrink: 0;
+}
+.photo-nav-counter {
+  font-family: var(--f-pixel); font-size: 7px;
+  color: var(--era); min-width: 40px; text-align: center;
+}
+#mVideoWrap { flex-shrink: 0; background: #000; }
+.modal-video-frame {
+  width: 100%; height: 240px; border: none;
+  display: block;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   PHOTO LOG
+   ══════════════════════════════════════════════════════════════ */
+.photo-log-section {
+  flex: 0 0 auto;
+  padding: 6px 16px 8px;
+  border-top: 1px solid rgba(255,255,255,.06);
+  background: rgba(0,0,0,.3);
+}
+.photo-log-header {
+  font-family: var(--f-pixel); font-size: 6px;
+  color: var(--era); opacity: .7;
+  margin-bottom: 6px; letter-spacing: 1px;
+}
+.photo-log-strip {
+  display: flex; gap: 6px;
+  overflow-x: auto; overflow-y: hidden;
+  padding-bottom: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--era) transparent;
+}
+.photo-log-strip::-webkit-scrollbar { height: 3px; }
+.photo-log-strip::-webkit-scrollbar-thumb { background: var(--era); }
+.log-thumb {
+  height: 72px; width: auto; min-width: 60px;
+  object-fit: cover; flex-shrink: 0;
+  border: 1px solid var(--era); border-radius: 3px;
+  cursor: pointer; transition: transform .15s, border-color .15s;
+}
+.log-thumb:hover { transform: scale(1.06); border-color: var(--era2); }
+
+/* ══════════════════════════════════════════════════════════════
+   PHOTO LOG LIGHTBOX
+   ══════════════════════════════════════════════════════════════ */
+.log-lightbox {
+  position: fixed; inset: 0; z-index: 9000;
+  background: rgba(0,0,0,.94);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  cursor: pointer;
+}
+.log-lightbox.hidden { display: none; }
+.log-lightbox img {
+  max-width: 92vw; max-height: 85vh;
+  object-fit: contain;
+  border: 2px solid var(--era); border-radius: 4px;
+}
+.log-lightbox-hint {
+  font-family: var(--f-pixel); font-size: 7px;
+  color: var(--dim); margin-top: 14px;
+  animation: blink 1.5s step-end infinite;
+}
+
+/* ══════════════════════════════════════════════════════════════
    SCROLLBAR GLOBAL
    ══════════════════════════════════════════════════════════════ */
 ::-webkit-scrollbar { width: 3px; height: 3px; }

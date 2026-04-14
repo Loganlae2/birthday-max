@@ -67,6 +67,11 @@
       <div class="cabinets-row" id="cabinetsRow"></div>
     </div>
 
+    <div id="photoLogSection" class="photo-log-section" style="display:none">
+      <div class="photo-log-header">📸 PHOTO LOG — MORE MEMORIES</div>
+      <div class="photo-log-strip" id="photoLogStrip"></div>
+    </div>
+
     <footer class="lv-footer">
       <button class="btn-ghost sm" id="btnPrev" onclick="changeLevel(-1)">◀ PREV ERA</button>
       <div class="era-dots" id="eraDots"></div>
@@ -95,6 +100,12 @@
           <div class="ph-icon">📸</div>
           <div class="ph-label">PHOTO LOADING SOON...</div>
         </div>
+      </div>
+      <div id="mVideoWrap" style="display:none"></div>
+      <div class="modal-photo-nav" id="mPhotoNav" style="display:none">
+        <button class="btn-ghost sm" onclick="navPhoto(-1)">◀ PHOTO</button>
+        <span id="mPhotoCounter" class="photo-nav-counter">1 / 1</span>
+        <button class="btn-ghost sm" onclick="navPhoto(1)">PHOTO ▶</button>
       </div>
 
       <div class="modal-story">
@@ -128,6 +139,12 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Photo Log Lightbox -->
+  <div id="logLightbox" class="log-lightbox hidden" onclick="closeLogPhoto()">
+    <img id="logLightboxImg" src="" alt="Photo">
+    <div class="log-lightbox-hint">TAP TO CLOSE</div>
   </div>
 
   <script src="script.js"></script>
