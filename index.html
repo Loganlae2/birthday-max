@@ -137,14 +137,48 @@
           <button class="btn-start sm" onclick="goToTitle()">▶ PLAY AGAIN</button>
           <button class="btn-ghost sm" onclick="showLevel(3)">◀ LEVEL 4</button>
         </div>
+        <div style="margin-top:18px">
+          <button class="btn-surprise blink" onclick="openSurprise()">★ ONE LAST SURPRISE ★</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Surprise Modal -->
+  <div id="surpriseModal" class="modal-overlay hidden" onclick="closeSurprise()">
+    <div class="modal-box surprise-box" onclick="event.stopPropagation()">
+      <button class="modal-close btn-ghost sm" onclick="closeSurprise()">✕ CLOSE</button>
+
+      <!-- Quiz -->
+      <div id="surpriseQuiz" class="surprise-content">
+        <div class="surprise-icon">🤔</div>
+        <div class="surprise-title" id="quizTitle">BEFORE YOUR SURPRISE...</div>
+        <div class="quiz-question" id="quizQuestion"></div>
+        <div class="quiz-wrong" id="quizWrong" style="display:none"></div>
+        <div class="quiz-btns" id="quizBtns"></div>
+        <div class="quiz-progress" id="quizProgress"></div>
+      </div>
+
+      <!-- Reveal -->
+      <div id="surpriseReveal" class="surprise-content" style="display:none">
+        <div class="surprise-icon">🎁</div>
+        <div class="surprise-title">ONE LAST SURPRISE</div>
+        <div class="surprise-text">At 9PM tonight — check your texts.</div>
+        <div class="surprise-text">There is one last gift waiting for you.</div>
+        <div class="surprise-hint-label">HINT:</div>
+        <div class="surprise-hint">🌮 🔔</div>
       </div>
     </div>
   </div>
 
   <!-- Photo Log Lightbox -->
-  <div id="logLightbox" class="log-lightbox hidden" onclick="closeLogPhoto()">
-    <img id="logLightboxImg" src="" alt="Photo">
-    <div class="log-lightbox-hint">TAP TO CLOSE</div>
+  <div id="logLightbox" class="log-lightbox hidden">
+    <img id="logLightboxImg" src="" alt="Photo" onclick="closeLogPhoto()">
+    <div class="log-lightbox-nav">
+      <button class="log-nav-btn" onclick="navLogPhoto(-1)">◀</button>
+      <span class="log-lightbox-hint" onclick="closeLogPhoto()">TAP PHOTO TO CLOSE</span>
+      <button class="log-nav-btn" onclick="navLogPhoto(1)">▶</button>
+    </div>
   </div>
 
   <script src="script.js"></script>

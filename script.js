@@ -714,13 +714,95 @@ function navMemory(dir) {
 // ══════════════════════════════════════════════════════════════
 //   PHOTO LOG LIGHTBOX
 // ══════════════════════════════════════════════════════════════
+let logPhotos = [];
+let logPhotoIdx = 0;
+
 function openLogPhoto(url) {
-  document.getElementById('logLightboxImg').src = url;
+  const lv = GAME_DATA.levels[currentLevelIndex];
+  logPhotos = lv.photoLog || [];
+  logPhotoIdx = logPhotos.indexOf(url);
+  if (logPhotoIdx === -1) logPhotoIdx = 0;
+  renderLogPhoto();
   document.getElementById('logLightbox').classList.remove('hidden');
+}
+
+function renderLogPhoto() {
+  document.getElementById('logLightboxImg').src = logPhotos[logPhotoIdx];
+}
+
+function navLogPhoto(dir) {
+  logPhotoIdx = (logPhotoIdx + dir + logPhotos.length) % logPhotos.length;
+  renderLogPhoto();
 }
 
 function closeLogPhoto() {
   document.getElementById('logLightbox').classList.add('hidden');
+}
+
+const QUIZ = [
+  {
+    question: "WHO IS THE BETTER LOOKING TWIN?",
+    answers: ["MAX 😎", "LOGAN 😍"],
+    correct: 1,
+    wrong: ["INCORRECT. BE HONEST WITH YOURSELF.", "WRONG. THINK HARDER.", "NICE TRY. THE MIRROR DOESN'T LIE."]
+  },
+  {
+    question: "WHO IS THE SMARTER TWIN?",
+    answers: ["MAX 🧠", "LOGAN 🏆"],
+    correct: 1,
+    wrong: ["WRONG. OBJECTIVELY INCORRECT.", "TRY AGAIN. USE THAT BIG BRAIN.", "INCORRECT. THIS IS EMBARRASSING FOR YOU."]
+  },
+  {
+    question: "WHO IS MOM & DAD'S FAVORITE?",
+    answers: ["MAX 🥺", "LOGAN 👑"],
+    correct: 1,
+    wrong: ["WRONG. THEY TOLD ME THEMSELVES.", "INCORRECT. THEY LITERALLY SAID IT.", "TRY AGAIN. WE BOTH KNOW THE TRUTH."]
+  }
+];
+
+let quizIdx = 0;
+let wrongCounts = [0, 0, 0];
+
+function openSurprise() {
+  quizIdx = 0;
+  wrongCounts = [0, 0, 0];
+  document.getElementById('surpriseReveal').style.display = 'none';
+  document.getElementById('surpriseQuiz').style.display = 'block';
+  document.getElementById('surpriseModal').classList.remove('hidden');
+  renderQuiz();
+}
+
+function renderQuiz() {
+  const q = QUIZ[quizIdx];
+  document.getElementById('quizQuestion').textContent = q.question;
+  document.getElementById('quizWrong').style.display = 'none';
+  document.getElementById('quizProgress').textContent = `QUESTION ${quizIdx + 1} OF ${QUIZ.length}`;
+  document.getElementById('quizBtns').innerHTML = q.answers.map((a, i) =>
+    `<button class="quiz-btn btn-ghost" onclick="answerQuiz(${i})">${a}</button>`
+  ).join('');
+}
+
+function answerQuiz(chosen) {
+  const q = QUIZ[quizIdx];
+  if (chosen !== q.correct) {
+    const msg = q.wrong[wrongCounts[quizIdx] % q.wrong.length];
+    wrongCounts[quizIdx]++;
+    const wrongEl = document.getElementById('quizWrong');
+    wrongEl.textContent = msg;
+    wrongEl.style.display = 'block';
+    return;
+  }
+  quizIdx++;
+  if (quizIdx >= QUIZ.length) {
+    document.getElementById('surpriseQuiz').style.display = 'none';
+    document.getElementById('surpriseReveal').style.display = 'block';
+  } else {
+    renderQuiz();
+  }
+}
+
+function closeSurprise() {
+  document.getElementById('surpriseModal').classList.add('hidden');
 }
 
 
